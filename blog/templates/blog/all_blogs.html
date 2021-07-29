@@ -1,0 +1,18 @@
+<h1> Hello blog </h1>
+
+{% for blog in blogs reversed %}
+
+<h1>
+{{ blog.title}} </h1>
+<br>
+<b>
+{{ blog.date}}
+</b>
+<br>
+{{ blog.description }}
+<br>
+<br>
+{{ blog.body }}
+
+
+{% endfor %}
