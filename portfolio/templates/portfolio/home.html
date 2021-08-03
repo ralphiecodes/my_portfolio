@@ -1,4 +1,15 @@
-<h1> Hi Home </h1>
+{% extends 'portfolio/base.html '%}
+{% block content%}
+
+<h1>Ralphie's Portfolio</h1>
+
+
+{% load static %}
+<a href="{% url 'blog:all_blogs' %}"> Blogs </a>
+<br>
+<a href="{% static '/resume.pdf' %}"> Resume</a>
+<br>
+<img src="{% static '/dumbo_pic.jpg' %}">
 
 {% for project in projects %}
 
@@ -15,3 +26,5 @@
 
 
 {% endfor %}
+
+{% endblock %}

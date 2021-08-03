@@ -5,3 +5,7 @@ class Blog(models.Model):
     date = models.DateField(auto_now=True)
     description = models.CharField(max_length=300)
     body = models.TextField(null=True)
+
+    def __str__(self):
+        return self.title, self.date
+
