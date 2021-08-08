@@ -8,7 +8,7 @@
 <html lang="en">
 
 <body>
-<div class="huge">
+
 <div id="slides" class="carousel slide" data-ride="carousel">
 <ul class="carousel-indicators">
     <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -18,7 +18,7 @@
 <div class="carousel-inner">
     <div class="carousel-item active" >
       <img src="{% static '/ralphie_python.png' %}">
-        <div class="carousel-caption">
+        <div class="carousel-caption d-none d-md-block">
           <h1 class="display-2"> <b>Hi, I'm Ralphie </b></h1>
          
         </div>
@@ -30,7 +30,7 @@
       <img src="{% static '/ralphie_python.png' %}">
     </div>  
 </div>          
-</div>
+
 
 </div>
 <div class="container-fluid">
@@ -49,30 +49,31 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container">
   <div class="row projects text-center">
     <div class="col-12">
       <h12 class="display-4"> <b>Projects </b></h1>
     </div>
   </div>
 </div>
-        <hr class="projects-hr">
+        
+<hr class="projects-hr">
+
 {% for project in projects %}
   <div class="row">
     <div class="col-md-6">
       {% if project.url %}
-        
-          
-            <img src="{{ project.image.url}}" >
-              <div class="carousel-caption">
-                <button type="button" class="btn btn-outline-light btn-lg"> GITHUB CODE </button>
-                
-                <button type="button" class="btn btn-outline-secondary btn-lg"> 
-                <a href="{{ project.url }}"> VIEW PROJECT  </a>
-                </button>
-       
-      </div>
-
+          <div class="img-wrapper">
+            <img src="{{ project.image.url}}" class="img-responsive" >
+              
+                <div class="img-overlay">
+                  <button type="button" class="btn btn-dark btn-sm" >  <a href="{{ project.url }}" style="color: #FFFFFF; text-decoration: none;" > Github Code</a></button>
+                  <button type="button" class="btn btn-dark btn-sm"> 
+                  <a href="{{ project.url }}" style="color: #FFFFFF; text-decoration: none;" >  View Project </a>
+                  </button>
+                </div>
+             
+            </div>
       {% else %}
         <img src="{{ project.image.url }}">
       {% endif %}
@@ -83,7 +84,7 @@
         <p>{{ project.description }}</p>
     </div>
   </div>
-
+<br>
 {% endfor %}
 
 
@@ -95,24 +96,23 @@
         <h2> Connect </h2>
     </div>
     <div class="col-12 social padding">
-      <a href="https://www.linkedin.com/in/ralphie00/"><i class="fab fa-twitter"></i></a>
-      <a href="https://twitter.com/ralphiecodes"><i class="fab fa-linkedin"> </i></a>
-      <a href="https://github.com/ralphiecodes"><i class="fab fa-github"> </i></a>
+      <a href="https://twitter.com/ralphiecodes"> <i class="fab fa-twitter"> </i> </a>
+      <a href="https://www.linkedin.com/in/ralphie00"> <i class="fab fa-linkedin"> </i></a>
+      <a href="https://github.com/ralphiecodes"> <i class="fab fa-github"> </i></a>
     </div>
   </div>
 </div>
     
 
-
-<footer> 
+<footer class="footercontainer"> 
 <div class="container-fluid padding">
     <div class="row text-center padding">
       <div class="col-12">
           <h1> Contact Me! </h1>
 
-          <p> Ralphie Perez </p>
-          <p> 917-603-0350</p>
-          <p> ralphperez88@gmail.com </p>
+          <p> Ralphie </p>
+          <p> 123-345-5678</p>
+          <p> blah@blah.com </p>
       </div>
 
       <div class="col-12">
