@@ -36,12 +36,11 @@
 <div class="container-fluid">
   <div class="row jumbotron">
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-        <p class="lead"> Lorem Ipsum is simply dummy text of the printing and
-         typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type and scrambled
-           it to make a type specimen book. It has survived not only five centuries, 
-           but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing
+        <h1 class="display-4"> &lth1&gt Hello, world!  &lt/h1&gt </h1>
+        <p class="lead"> Welcome to my portfolio website. I am a recent graduate from Lehman College 2020,
+        with a degree in Computer Science. I am currently working with Python, Django, HTML, and CSS with a passion for
+        web development. I am always seeking new opportunities and adventures so if you like what you see please do not
+        hesistate to give contact me below! Thank you so much! Have a great day!
         </p>
 
       </div>
@@ -56,12 +55,12 @@
     </div>
   </div>
 </div>
-        
+<div class="container-fluid">     
 <hr class="projects-hr">
 
 {% for project in projects %}
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       {% if project.url %}
           <div class="img-wrapper">
             <img src="{{ project.image.url}}" class="img-responsive" >
@@ -79,13 +78,15 @@
       {% endif %}
     </div>
        
-    <div class="col-md-6">
+    <div class="col-sm-6">
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
     </div>
   </div>
 <br>
+
 {% endfor %}
+</div>
 
 
 <hr>
@@ -103,21 +104,26 @@
   </div>
 </div>
     
-
+<br>
+<br>
 <footer class="footercontainer"> 
 <div class="container-fluid padding">
     <div class="row text-center padding">
+    <div class="col-12">
+          <h1> Contact Me </h1>
+          <br>
       <div class="col-12">
-          <h1> Contact Me! </h1>
+          
 
-          <p> Ralphie </p>
-          <p> 123-345-5678</p>
-          <p> blah@blah.com </p>
+          <p> Ralphie Perez</p>
+          <p> 917-603-0350</p>
+          <p> ralphperez88@gmail.com</p>
       </div>
 
       <div class="col-12">
           <h5>&copy;Ralphie P</h5> 
       </div>
+    </div>
     </div>
 </div>
 

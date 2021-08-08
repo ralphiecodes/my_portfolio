@@ -7,8 +7,10 @@ html, body {
     color: #222
 
 }
+
 .img-wrapper {
     position: relative;
+
 }
 
 .img-responsive {
@@ -23,13 +25,15 @@ html, body {
     left: 0;
     right: 0;
     text-align: center;
+    outline-color:black;
+    outline-style:solid;
 }
 
 .img-overlay:before {
     content: ' ';
     display: block;
     /* adjust 'height' to position overlay content vertically */
-    height: 90%;
+    height: 75%;
 }
 
 .navbar{

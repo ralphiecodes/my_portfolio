@@ -15,11 +15,12 @@
   <link rel="stylesheet" type="text/css" href="{% static 'custom.css' %}"/>
 </head>
 <body>
+<div class="below">
 <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="{% url 'home' %}">
-      <img src="{% static "/logo.png" %}" width="30" height="30" alt="Ralph's Logo">
-      Ralphie</a>
+      <img src="{% static "logo2.png" %}" width="35" height="35" alt="Ralph's Logo">
+      Ralphie Perez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,7 +40,7 @@
           </div>
   </div>
 </nav>
- 
+ </div>
     {% block content %}
     {% endblock %}
 
