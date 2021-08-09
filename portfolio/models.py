@@ -5,6 +5,12 @@ class Project(models.Model):
     description = models.CharField(max_length=300)
     image = models.ImageField(upload_to='portfolio/images/')
     url = models.URLField(blank=True)
+    detail_one = models.CharField(blank=True,max_length=100)
+    detail_two = models.CharField(blank=True,max_length=100)
+    detail_three = models.CharField(blank=True,max_length=100)
+    detail_four = models.CharField(blank=True,max_length=100)
+    detail_five = models.CharField(blank=True,max_length=100)
+    detail_six = models.CharField(blank=True,max_length=100)
 
 
     def __str__(self):

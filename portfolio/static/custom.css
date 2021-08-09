@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@50&display=swap');
 
 html, body {
     height: 100%;
     width:100%;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: #222
 
 }

@@ -7,5 +7,5 @@ class Blog(models.Model):
     body = models.TextField(null=True)
 
     def __str__(self):
-        return self.title, self.date
+        return self.title
 
