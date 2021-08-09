@@ -6,6 +6,7 @@ colorama==0.4.4
 dict-toolbox==2
 Django==3.2.5
 et-xmlfile==1.1.0
+fontawesomefree==5.15.4
 google-search-results==2.3.0
 idna==2.10
 isort==5.8.0
@@ -31,4 +32,3 @@ toml==0.10.2
 tornado==6.1
 urllib3==1.26.4
 wrapt==1.12.1
-fontawesome-free==5.15.4
