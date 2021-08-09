@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-pa^%*4=^=$u#)ozei5s$==6t^3a&ljn^qsd$o$(-u3$d9*dp*@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ralphiecodes.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.ralphie.dev']
 
 
 # Application definition
