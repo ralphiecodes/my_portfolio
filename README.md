@@ -84,9 +84,6 @@
 ## About The Project
 
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`ralphiecodes`, `my_portfolio`, `my_portfolio`, `ralphperez88@gmail.com`, `Ralphie's Portfolio`, `project_description`
 
 
 ### Built With
@@ -96,6 +93,7 @@ Here's a blank template to get started:
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 * [CSS](https://www.w3schools.com/css/)
 * [BootStrap](https://getbootstrap.com/)
+* [FontAwesomeFree](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/python-and-django)
 
 
 
@@ -105,8 +103,10 @@ Here's a blank template to get started:
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
+* Have Python installed *  (https://realpython.com/installing-python/)
 
-This is aann example of how to list things you need to use the software and how to install them.
+
+This is an example of how to list things you need to use the software and how to install them.
 * pip - windows
   ```sh
   py get-pip.py
