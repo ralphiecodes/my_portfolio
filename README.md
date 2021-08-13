@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** ralphiecodes, my_portfolio, my_portfolio, ralphperez88@gmail.com, Ralphie's Portfolio, project_description
 -->
 
 
@@ -20,35 +20,33 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub issues open](https://img.shields.io/github/issues/network-tools/shconfparser.svg?maxAge=2592000)](https://github.com/ralphiecodes/my_portfolio/issues)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/ralphie00/)
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/ralphiecodes/my_portfolio/">
+    <img src="portfolio\static\logo2.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Ralphie's Portfolio</h3>
 
   <p align="center">
-    project_description
+    This is my personal portfolio, where I can explain my projects and show them off
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ralphiecodes/my_portfolio/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://www.ralphie.dev">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/ralphiecodes/my_portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/ralphiecodes/my_portfolio/issues">Request Feature</a>
   </p>
 </p>
 
@@ -85,18 +83,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`ralphiecodes`, `my_portfolio`, `my_portfolio`, `ralphperez88@gmail.com`, `Ralphie's Portfolio`, `project_description`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Django](https://docs.djangoproject.com/en/3.2/topics/templates/)
+* [Pillow](https://pillow.readthedocs.io/en/stable/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+* [CSS](https://www.w3schools.com/css/)
+* [BootStrap](https://getbootstrap.com/)
 
 
 
@@ -107,17 +106,18 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+This is aann example of how to list things you need to use the software and how to install them.
+* pip - windows
   ```sh
-  npm install npm@latest -g
+  py get-pip.py
   ```
+
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ralphiecodes/my_portfolio/.git
    ```
 2. Install Django
    ```sh
@@ -127,22 +127,18 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    pip install pillow
    ```
+4. Install FontAwesomeFree (https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/python-and-django)
+   ```sh
+   pip install fontawesomefree
+   ```
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/ralphiecodes/my_portfolio/issues) for a list of proposed features (and known issues).
 
 
 
@@ -169,18 +165,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@ralphiecodes](https://twitter.com/ralphiecodes) - ralphperez88@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ralphiecodes/my_portfolio](https://github.com/ralphiecodes/my_portfolio)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
@@ -188,15 +176,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ralphiecodes/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/ralphiecodes/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ralphiecodes/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/ralphiecodes/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/ralphiecodes/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/ralphiecodes/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ralphiecodes/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/ralphiecodes/repo/issues
+[license-shield]: https://img.shields.io/github/license/ralphiecodes/repo.svg?style=for-the-badge
+[license-url]: https://github.com/ralphiecodes/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/ralphiecodes
