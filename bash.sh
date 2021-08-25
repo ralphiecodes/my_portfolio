@@ -15,7 +15,7 @@ elif [[ $command == "commit" ]]; then
     read message
     echo  $(git add .)
     echo  $(git commit -m "$message ") 
-    echo  $(git push origin $branch) 
+    echo  $(git push origin main) 
 
 else
     echo "That's not a valid command"
